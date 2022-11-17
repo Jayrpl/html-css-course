@@ -21,6 +21,7 @@ body {
   text-transform: uppercase;
   background-color: #f7f7f7;
   padding: 15px;
+  position: relative;
 }
 
 /* PRODUCT INFORMATION */
@@ -39,6 +40,8 @@ body {
 .more-info:link,
 .more-info:visited {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 .more-info:hover,
@@ -80,4 +83,46 @@ body {
 .add-cart:hover {
   color: #000;
   background-color: #fff;
+}
+
+.sale {
+  position: absolute;
+  display: inline-block;
+  background-color: red;
+  color: #f7f7f7;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 7px 10px;
+  top: 40px;
+  left: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: #2f6ee2;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: #f0bf13;
+}
+
+.color-green {
+  background-color: #90cc20;
+}
+
+.color-brown {
+  background-color: #885214;
 }
